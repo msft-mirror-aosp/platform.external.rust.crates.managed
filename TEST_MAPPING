@@ -5,6 +5,11 @@
       "path": "external/rust/crates/gdbstub_arch"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "managed_test_src_lib"
+    }
+  ],
   "presubmit": [
     {
       "name": "managed_test_src_lib"
